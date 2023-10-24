@@ -57,7 +57,7 @@ myListTasks = JSON.parse(valor)
 showTask()
 }
 
-//cgpt
+//update
 
 function editTask(index) {
     const listItem = document.querySelectorAll('.task')[index]
@@ -83,7 +83,7 @@ function editTask(index) {
     }
 }
 
-//cgpt
+
 
 function deleteTask(index){
     myListTasks.splice(index,1)
